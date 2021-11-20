@@ -19,6 +19,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunManager" selected="Python.if statements">
     <configuration name="if statements" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -98,6 +99,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
