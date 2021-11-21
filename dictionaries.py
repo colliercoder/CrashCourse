@@ -118,3 +118,4 @@ for city,cityinfo in cities.items():
     print('A fun fact about '+city+' is '+ cityinfo['Fact']+'.')
     print('\n')
 
+
