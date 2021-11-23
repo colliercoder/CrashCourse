@@ -187,3 +187,4 @@ def car_info(manufacturer,model,**carinfo):
 cars = car_info('subaru','outback',color = 'blue',tow_package = True)
 for key, value in cars.items():
     print(key.title() + ' : ' + value.title(), end = ' , ')
+
