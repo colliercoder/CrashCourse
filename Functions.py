@@ -152,5 +152,37 @@ def make_pizza(*toppings): #the * tells python to make an empty tuple called top
     for topping in toppings:
         print("- "+topping)
 
-
 make_pizza('queso','championes','pepperoni','aceitunas','pimenton')
+
+def build_profile(first,last,**user_info): #** creates a blank dictionary
+    profile = {}
+    profile['First Name'] = first
+    profile['Last Name'] = last
+    for key,value in user_info.items():
+        profile[key]=value
+    return profile
+
+user_profile = build_profile('albert','einstein',location = 'princeton',field = 'physics')
+print(user_profile)
+
+#8-12 Sandwiches
+def make_sandwich(*toppings):
+    print('\n Haciendo su sandwich ')
+    print('\n Your sandwich containing: ')
+    for topping in toppings:
+        print('- '+topping)
+    print(' Is Ready')
+
+make_sandwich('peporoni','cheese','tomato','onion','lettuce','bacon')
+
+def car_info(manufacturer,model,**carinfo):
+    car = {}
+    car["Manufacturer"] = manufacturer
+    car["Model"] = model
+    for key,value in carinfo.items():
+        car[key]=value
+    return car
+
+cars = car_info('subaru','outback',color = 'blue',tow_package = True)
+for key, value in cars.items():
+    print(key.title() + ' : ' + value.title(), end = ' , ')
