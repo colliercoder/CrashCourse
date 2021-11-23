@@ -119,7 +119,7 @@ while True:
 #Exercises
 #8-9 Magicians
 
-
+"""
 def show_magicians(magicians):
     for magician in magicians:
         print(magician.title())
@@ -143,3 +143,14 @@ makegreate = make_great(names[:])
 show_magicians(names)
 show_magicians(makegreate)
 show_magicians(names)
+
+"""
+#passing an arbitrary number of arguments
+
+def make_pizza(*toppings): #the * tells python to make an empty tuple called toppings
+    print("Estamos haciendo su pizza con los toppings: ")
+    for topping in toppings:
+        print("- "+topping)
+
+
+make_pizza('queso','championes','pepperoni','aceitunas','pimenton')
