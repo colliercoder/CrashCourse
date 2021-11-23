@@ -175,6 +175,7 @@ def make_sandwich(*toppings):
 
 make_sandwich('peporoni','cheese','tomato','onion','lettuce','bacon')
 
+#8-14 Cars
 def car_info(manufacturer,model,**carinfo):
     car = {}
     car["Manufacturer"] = manufacturer
