@@ -13,3 +13,20 @@ with open(file_path) as file_object:
 with open(file_path) as file_object:
     for line in file_object:
         print(line.rstrip())
+
+#making a list of lines from a file
+with open(file_path) as file_object:
+    lines = file_object.readlines()
+for line in lines:
+    print(line.rstrip())
+
+#creating a string holding the entirety of pi file
+with open(file_path) as file_object: #first make a list of lines
+    lines = file_object.readlines()
+pi_string = '' #create an empty string
+for line in lines: #loop through the created list
+    pi_string += line.strip()   #add the lines line by line to the string pi_string
+                                #.strip() needed to fit string on one line
+
+print(pi_string)
+print(len(pi_string))
