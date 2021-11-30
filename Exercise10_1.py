@@ -14,3 +14,11 @@ with open(file_path) as file_object:
     lines = file_object.readlines()
 for line in lines:
     print(line.rstrip())
+
+#10-2 Replacing python with C#
+with open(file_path) as file_object:
+    for line in file_object:
+        x = line.lower()
+        y = x.replace('python','C#')
+        print(y.rstrip())
+
