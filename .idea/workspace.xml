@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cb92c88-d4fc-47e7-8e0d-55db75a74932" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/10-3 Guest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-4 Guestbook.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-5 Programming Poll.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-6 Additoin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guest_book.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programming_poll.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/writing to an empty file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-8 Cats and Dogs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise10_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise10_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,28 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.10-6 Additoin">
-    <configuration name="10-3 Guest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\15402\PycharmProjects\CrashCourse\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10-3 Guest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.10-8 Cats and Dogs">
     <configuration name="10-4 Guestbook" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,6 +106,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="10-8 Cats and Dogs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\15402\PycharmProjects\CrashCourse\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10-8 Cats and Dogs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10-8 Cats and Dogs" />
         <item itemvalue="Python.10-6 Additoin" />
         <item itemvalue="Python.Exceptions" />
         <item itemvalue="Python.10-5 Programming Poll" />
         <item itemvalue="Python.10-4 Guestbook" />
-        <item itemvalue="Python.10-3 Guest" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638306171249</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit">
+      <created>1638310037793</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638310037793</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
